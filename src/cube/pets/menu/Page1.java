@@ -1,8 +1,10 @@
 package cube.pets.menu;
 
-import cube.pets.managers.PetManager;
-import cube.pets.utils.ItemTools;
-import cube.pets.utils.Strings;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Random;
+
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.DyeColor;
@@ -13,10 +15,9 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+import cube.pets.managers.PetManager;
+import cube.pets.utils.ItemTools;
+import cube.pets.utils.Strings;
 
 /**
  * Created by mike1665 on 5/21/2015.

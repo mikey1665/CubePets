@@ -1,12 +1,5 @@
 package cube.pets.menu.click;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
-import cube.pets.api.Pet;
-import cube.pets.api.SpawnPet;
-import cube.pets.menu.Modifications;
-import cube.pets.purchases.Purchases;
-import cube.pets.purchases.pets.*;
-import cube.pets.utils.Strings;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
@@ -14,6 +7,17 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
+
+import cube.pets.api.Pet;
+import cube.pets.api.SpawnPet;
+import cube.pets.menu.Modifications;
+import cube.pets.purchases.pets.MooshroomCow;
+import cube.pets.purchases.pets.PurchaseChicken;
+import cube.pets.purchases.pets.PurchaseCow;
+import cube.pets.purchases.pets.PurchasePig;
+import cube.pets.purchases.pets.PurchaseSheep;
+import cube.pets.purchases.pets.PurchaseWolf;
+import cube.pets.utils.Strings;
 
 /**
  * Created by mike1665 on 5/21/2015.

@@ -1,23 +1,17 @@
 package cube.pets.menu.click;
 
-import cube.pets.api.Pet;
-import cube.pets.api.SpawnPet;
-import cube.pets.managers.ModificationManager;
-import cube.pets.menu.Modifications;
-import cube.pets.menu.Page1;
-import cube.pets.modifications.MountPet;
-import cube.pets.modifications.NamingPet;
-import cube.pets.purchases.pets.*;
-import cube.pets.utils.Strings;
 import org.bukkit.ChatColor;
-import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
 
-import java.rmi.Naming;
+import cube.pets.managers.ModificationManager;
+import cube.pets.menu.Page1;
+import cube.pets.modifications.MountPet;
+import cube.pets.modifications.NamingPet;
+import cube.pets.utils.Strings;
 
 /**
  * Created by mike1665 on 5/21/2015.

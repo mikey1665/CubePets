@@ -1,11 +1,11 @@
 package cube.pets.utils;
 
+import java.util.Arrays;
+import java.util.List;
+
 import org.apache.commons.lang.WordUtils;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Created by mike1665 on 5/21/2015.
