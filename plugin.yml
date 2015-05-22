@@ -1,0 +1,7 @@
+name: CubePets
+main: cube.pets.Core
+version: 0.1
+author: mike1665
+description: Main Pets for the cube!
+commands:
+    petmenu:
