@@ -1,19 +1,24 @@
 package cube.pets.api;
 
-import cube.pets.Core;
+import java.util.HashMap;
+import java.util.UUID;
+
 import net.minecraft.server.v1_8_R2.AttributeInstance;
 import net.minecraft.server.v1_8_R2.EntityInsentient;
 import net.minecraft.server.v1_8_R2.GenericAttributes;
 import net.minecraft.server.v1_8_R2.PathEntity;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.craftbukkit.v1_8_R2.entity.CraftEntity;
-import org.bukkit.entity.*;
-import org.bukkit.event.Listener;
+import org.bukkit.entity.Ageable;
+import org.bukkit.entity.Entity;
+import org.bukkit.entity.EntityType;
+import org.bukkit.entity.LivingEntity;
+import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import java.util.HashMap;
-import java.util.UUID;
+import cube.pets.Core;
 
 /**
  * Created by mike1665 on 5/21/2015.

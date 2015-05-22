@@ -1,7 +1,7 @@
 package cube.pets.modifications;
 
-import cube.pets.api.Pet;
-import cube.pets.utils.Strings;
+import java.util.ArrayList;
+
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -9,7 +9,8 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 
-import java.util.ArrayList;
+import cube.pets.api.Pet;
+import cube.pets.utils.Strings;
 
 /**
  * Created by mike1665 on 5/21/2015.

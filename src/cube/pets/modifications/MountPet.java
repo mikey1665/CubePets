@@ -1,8 +1,7 @@
 package cube.pets.modifications;
 
-import cube.pets.api.Pet;
-import cube.pets.managers.ModificationManager;
-import cube.pets.utils.Strings;
+import java.util.ArrayList;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -12,7 +11,9 @@ import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-import java.util.ArrayList;
+import cube.pets.api.Pet;
+import cube.pets.managers.ModificationManager;
+import cube.pets.utils.Strings;
 
 /**
  * Created by mike1665 on 5/21/2015.

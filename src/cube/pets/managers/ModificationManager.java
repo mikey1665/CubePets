@@ -1,7 +1,8 @@
 package cube.pets.managers;
 
-import cube.pets.Core;
 import org.bukkit.OfflinePlayer;
+
+import cube.pets.Core;
 
 /**
  * Created by mike1665 on 5/21/2015.

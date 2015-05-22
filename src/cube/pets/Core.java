@@ -1,5 +1,10 @@
 package cube.pets;
 
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
+import org.bukkit.plugin.PluginManager;
+import org.bukkit.plugin.java.JavaPlugin;
+
 import cube.pets.api.Pet;
 import cube.pets.commands.PetMenu;
 import cube.pets.managers.ModificationManager;
@@ -11,12 +16,6 @@ import cube.pets.menu.click.Page1Click;
 import cube.pets.modifications.MountPet;
 import cube.pets.modifications.NamingPet;
 import cube.pets.modifications.PetClick;
-import cube.pets.purchases.Purchases;
-import cube.pets.purchases.pets.PurchasePig;
-import org.bukkit.Bukkit;
-import org.bukkit.entity.Player;
-import org.bukkit.plugin.PluginManager;
-import org.bukkit.plugin.java.JavaPlugin;
 
 /**
  * Created by mike1665 on 5/21/2015.

@@ -1,14 +1,11 @@
 package cube.pets.modifications;
 
-import cube.pets.api.Pet;
-import cube.pets.managers.ModificationManager;
-import cube.pets.utils.Strings;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
+
+import cube.pets.api.Pet;
 
 /**
  * Created by mike1665 on 5/21/2015.
